@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="faida">
+	<parameter name="appURL" value="http://faida.com/" />
+	<parameter name="browserType" value="firefox" />
+
+	<test name="Faida">
+		<classes>
+				        <class name="com.Faida.automation.tests.RegisterTest" /> 
+                     <class name="com.Faida.automation.tests.SignInTest" />  
+                <class name="com.Faida.automation.tests.ActivityTest" />  
+           <class name="com.Faida.automation.tests.ProfileTest" /> 
+                <class name="com.Faida.automation.tests.MyListingsTest" />   
+                         <class name="com.Faida.automation.tests.ExchangeTest" />  
+                     <class name="com.Faida.automation.tests.ConnecTest" /> 
+            
+		</classes>
+    </test>
+
+</suite>
